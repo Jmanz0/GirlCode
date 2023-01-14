@@ -1,7 +1,7 @@
 import './App.css';
 import 'aframe';
 import {GLTFLoader} from 'three/examples/jsm/loaders/GLTFLoader';
-import sky from './stars.jpg';
+import sky from './white.jpg';
 import store from './models/store.glb';
 import CropHoodie from './CropHoodie';
 
