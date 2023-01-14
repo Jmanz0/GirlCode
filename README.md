@@ -1,5 +1,2 @@
 
 # GirlCode
-# Hackathon
-# Hackathon
-# Hackathon
