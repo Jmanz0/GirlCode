@@ -8,6 +8,7 @@ import Dress from './partials/Dress';
 import SecondDress from './partials/SecondDress';
 import Jeans from './partials/Jeans';
 import Sweatpants from './partials/Sweatpants';
+import React, { useState } from 'react';
 
 
 function App() {
@@ -23,11 +24,18 @@ function App() {
       <a-assets>
         <img id= "ceiling" src={ceiling} />
       </a-assets>
-
       <a-entity
-          // animation="property: visible; to: true; startEvents: mouseclick;"
-          position="-2.5 1 0"
-          text="anchor: left; width: 10; color: black; value: [LEFT ANCHOR] Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut enim ad minim veniam">
+          position="-34 10 -40"
+          text="font: mozillavr; anchor: left; width: 15; color: white; value: CropHoodie: \n Made with real cotton">
+          
+     </a-entity>
+     <a-entity
+          position="-8 10 -40"
+          text="font: mozillavr; anchor: left; width: 15; color: white; value: Dress: \n Made with real cotton">
+     </a-entity>
+     <a-entity
+          position="35 10 -40"
+          text="font: mozillavr; anchor: left; width: 15; color: white; value: Sweatpants: \n Made with real cotton">
      </a-entity>
 
 
@@ -37,14 +45,12 @@ function App() {
         rotation="0 0 0"
       >
       </a-sky>
-      <a-entity id="store" position="-200 -12 170" scale="12 12 12"></a-entity>
-      <CropHoodie x={0} y={-22} z={0}/>
-      <Dress x={20} y={-15} z={0}/>
-      <SecondDress x={40} y={-15} z={0}/>
-      <Jeans x={80} y={-15} z={0}/>
-      <Sweatpants x={-0} y={-15} z={0}/>
-      <a-entity id="store" position="-200 -12 170" scale="12 12 12" color="black"></a-entity>
-
+      <a-entity id="store" position="-230 -12 130" scale="12 12 12"></a-entity>
+      <CropHoodie x={-30} y={-22} z={-40}/>
+      <Dress x={-6} y={-9} z={-40}/>
+      <SecondDress x={6} y={-20} z={-40}/>
+      <Jeans x={50} y={-15} z={-40}/>
+      <Sweatpants x={40} y={-10} z={-40}/>o
     </a-scene> 
   );
 }
