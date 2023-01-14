@@ -39,10 +39,12 @@ function App() {
       </a-sky>
       <a-entity id="store" position="-200 -12 170" scale="12 12 12"></a-entity>
       <CropHoodie x={0} y={-22} z={0}/>
-      <Dress x={-180} y={-22} z={0}/>
-      <SecondDress x={-165} y={-22} z={0}/>
-      <Jeans x={-220} y={-22} z={0}/>
-      <Sweatpants x={-235} y={-22} z={0}/>
+      <Dress x={20} y={-15} z={0}/>
+      <SecondDress x={40} y={-15} z={0}/>
+      <Jeans x={80} y={-15} z={0}/>
+      <Sweatpants x={-0} y={-15} z={0}/>
+      <a-entity id="store" position="-200 -12 170" scale="12 12 12" color="black"></a-entity>
+
     </a-scene> 
   );
 }

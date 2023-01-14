@@ -1,6 +1,6 @@
 import 'aframe';
 import {GLTFLoader} from 'three/examples/jsm/loaders/GLTFLoader';
-import secondDressModel from './models/secondDress.glb';
+import secondDressModel from '../models/secondDress.glb';
 import Prototypes from 'prop-types';
 
 

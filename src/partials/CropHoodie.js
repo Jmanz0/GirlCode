@@ -1,6 +1,6 @@
 import 'aframe';
 import {GLTFLoader} from 'three/examples/jsm/loaders/GLTFLoader';
-import cropHoodieModel from './models/cropHoodie.glb';
+import cropHoodieModel from '../models/cropHoodie.glb';
 import Prototypes from 'prop-types';
 
 
