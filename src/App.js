@@ -26,17 +26,17 @@ function App() {
           <img id= "ceiling" src={ceiling} />
         </a-assets>
         <a-entity
-            position="-34 10 -40"
-            text="font: mozillavr; anchor: left; width: 20; color: white; value: CropHoodie: \n Made with real cotton">
+            position="-39 14 -40"
+            text="font: mozillavr; wrapcount: 30; anchor: left; width: 20; color: white; value: Zip-Up Hoodie: \n This is a zip-up hoodie with kanga pockets, a double-layer hood and a relaxed fit. It’s made from mid-weight fleece with a cozy-brushed inside and a dry, unsueded face.">
             
       </a-entity>
       <a-entity
-            position="-8 10 -40"
-            text="font: mozillavr; anchor: left; width: 20; color: white; value: Dress: \n Made with real cotton">
+            position="-15 14 -40"
+            text="font: mozillavr; wrapcount: 30; anchor: left; width: 20; color: white; value: Swept Dress: \n This is a puff-sleeve mini dress with sheer sleeves and a ruffled neckline. It's made with Fête Chiffon — lightweight, semi-sheer fabric with an ethereal drape that’s made from 100% recycled materials. ">
       </a-entity>
       <a-entity
-            position="35 10 -40"
-            text="opacity: 1; font: mozillavr; anchor: left; width: 20; color: white; value: Sweatpants: \n Made with real cotton">
+            position="30 14 -40"
+            text="opacity: 1; font: mozillavr; anchor: left; width: 20; color: white; value: Fleece Mega Sweatpant: \n Huge, actually. These are high-rise sweatpants with an elastic waist and cuffs, an infinity loop drawcord and lots of volume. They're made with Tna’s Terry Fleece — all-season, midweight French terry with a looped back, soft drape and a breezy feel. Très luxe. ">
       </a-entity>
 
 
