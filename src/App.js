@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import 'aframe';
 import {GLTFLoader} from 'three/examples/jsm/loaders/GLTFLoader';
@@ -9,7 +8,7 @@ import CropHoodie from './CropHoodie';
 function App() {
   const loader  = new GLTFLoader();
 
-  loader.load(mountain, (d) =>{
+  loader.load(store, (d) =>{
     const entity = document.getElementById("store");
     entity.object3D.add(d.scene);
   })
